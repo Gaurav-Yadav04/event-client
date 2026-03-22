@@ -1,0 +1,42 @@
+import { FaBolt, FaToolbox, FaPaintBrush, FaCar, FaWrench, FaFan, FaLock, FaHome, FaLaptop, FaTv, FaSnowflake, FaSwimmingPool, FaLeaf } from "react-icons/fa";
+import { GiWaterTank, GiElectric, GiVacuumCleaner, GiCookingPot } from "react-icons/gi";
+
+export const servicesData = [
+  { name: "Electrician", category: "Electrical", icon: FaBolt, description: "All types of electrical repairs and installations." },
+  { name: "Plumber", category: "Plumbing", icon: FaToolbox, description: "Fix leaks, install pipes, and handle all plumbing issues." },
+  { name: "Mason", category: "Home Services", icon: FaHome, description: "Brickwork, walls, and structural repair services." },
+  { name: "Mechanic", category: "Automobile", icon: FaCar, description: "General vehicle repairs and maintenance." },
+  { name: "Painter", category: "Home Services", icon: FaPaintBrush, description: "Interior and exterior painting services." },
+  { name: "Carpenter", category: "Home Services", icon: FaWrench, description: "Furniture making and woodwork repairs." },
+  { name: "AC Repair", category: "Home Services", icon: FaSnowflake, description: "AC repair, maintenance, and servicing." },
+  { name: "TV Repair", category: "Electronics", icon: FaTv, description: "TV installation and repair services." },
+  { name: "Fridge Repair", category: "Electronics", icon: FaSnowflake, description: "Refrigerator repair and maintenance services." },
+  { name: "Gas Stove Repair", category: "Home Appliances", icon: GiCookingPot, description: "Repair of gas stoves and burners." },
+  { name: "House Cleaning", category: "Cleaning", icon: GiVacuumCleaner, description: "Full home cleaning and sanitization services." },
+  { name: "Water Tank Cleaning", category: "Cleaning", icon: GiWaterTank, description: "Thorough cleaning and maintenance of water tanks." },
+  { name: "Gardening", category: "Home Services", icon: FaLeaf, description: "Lawn care, landscaping, and garden maintenance." },
+  { name: "Bike Mechanic", category: "Automobile", icon: FaCar, description: "Bike repair and maintenance services." },
+  { name: "Car Mechanic", category: "Automobile", icon: FaCar, description: "Car repair, servicing, and maintenance." },
+  { name: "Locksmith", category: "Home Services", icon: FaLock, description: "Lock installation, repair, and key duplication." },
+  { name: "Furniture Repair", category: "Home Services", icon: FaWrench, description: "Repair of chairs, tables, and other furniture." },
+  { name: "Light Installation", category: "Electrical", icon: FaBolt, description: "Lighting installation and maintenance services." },
+  { name: "Bathroom Repair", category: "Home Services", icon: FaHome, description: "Bathroom plumbing, tiles, and fixture repair." },
+  { name: "Washing Machine Repair", category: "Home Appliances", icon: GiElectric, description: "Repair and servicing of washing machines." },
+  // Extra services
+  { name: "Sofa Cleaning", category: "Cleaning", icon: GiVacuumCleaner, description: "Professional sofa cleaning services." },
+  { name: "Roof Repair", category: "Home Services", icon: FaHome, description: "Fix leaks and roof maintenance services." },
+  { name: "Ceiling Repair", category: "Home Services", icon: FaHome, description: "Ceiling repair, painting, and installation." },
+  { name: "Window Cleaning", category: "Cleaning", icon: GiVacuumCleaner, description: "Clean windows inside and outside." },
+  { name: "Door Repair", category: "Home Services", icon: FaLock, description: "Door repair, installation, and lock fixes." },
+  { name: "Home Security Installation", category: "Home Services", icon: FaLock, description: "CCTV, alarm systems, and security solutions." },
+  { name: "Network / Wifi Setup", category: "IT", icon: FaLaptop, description: "Router installation, network troubleshooting, and wifi setup." },
+  { name: "Geyser Repair", category: "Home Appliances", icon: GiElectric, description: "Water heater repair and maintenance." },
+  { name: "Refrigerator Installation", category: "Home Appliances", icon: FaSnowflake, description: "Refrigerator installation and maintenance services." },
+  { name: "AC Installation", category: "Home Services", icon: FaSnowflake, description: "Air conditioner installation services." },
+  { name: "Fan Installation", category: "Electrical", icon: FaFan, description: "Ceiling and wall fan installation services." },
+  { name: "Electrical Wiring", category: "Electrical", icon: GiElectric, description: "Complete house/office wiring and maintenance." },
+  { name: "Plumbing Maintenance", category: "Plumbing", icon: FaToolbox, description: "Regular plumbing checkups and maintenance." },
+  { name: "Kitchen Repair", category: "Home Services", icon: GiCookingPot, description: "Kitchen cabinets, tiles, and fixture repair." },
+  { name: "Laundry Service", category: "Cleaning", icon: GiVacuumCleaner, description: "Pickup & delivery laundry service." },
+  { name: "Flooring", category: "Home Services", icon: FaHome, description: "Tile, wood, or laminate flooring installation and repair." }
+];

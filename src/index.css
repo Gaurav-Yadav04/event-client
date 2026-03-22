@@ -5,3 +5,7 @@
 body {
   @apply bg-gray-50 text-gray-900;
 }
+
+.input {
+  @apply border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full;
+}
